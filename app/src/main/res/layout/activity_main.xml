@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gezi.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:text="My Nanodegree Apps"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMvies"
+        style="@style/buttonStyle"
+        android:text="POPULAR POPULAR MOVIES" />
+
+    <Button
+        android:id="@+id/btnHawk"
+        style="@style/buttonStyle"
+        android:text="STOCK HAWK" />
+
+    <Button
+        android:id="@+id/btnBigger"
+        style="@style/buttonStyle"
+        android:text="BUILD IT BIGGER" />
+
+    <Button
+        android:id="@+id/btnMaterial"
+        style="@style/buttonStyle"
+        android:text="MAKE YOUR APP MATERIAL" />
+
+    <Button
+        android:id="@+id/btnUbiquitous"
+        style="@style/buttonStyle"
+        android:text="GO UBIQUITOUS" />
+
+    <Button
+        android:id="@+id/btnCapstone"
+        style="@style/buttonStyle"
+        android:text="CAPSTONE" />
+
+
+</LinearLayout>
